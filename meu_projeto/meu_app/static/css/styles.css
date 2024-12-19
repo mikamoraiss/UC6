@@ -1,0 +1,79 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Estilos para o menu */
+nav {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Estilos para parágrafos e conteúdo */
+p {
+    line-height: 1.6;
+    color: #444;
+}
+
+/* Estilos para listas */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para endereço */
+address {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Estilos para artigos do blog */
+article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+article h2 {
+    color: #444;
+    margin-top: 0;
+}

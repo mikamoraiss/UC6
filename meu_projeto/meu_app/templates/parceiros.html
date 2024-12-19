@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Parceiros</title>
+</head>
+<body>
+    <h1>Nosso Endereço</h1>
+    <address>
+        Rua Exemplo, 123<br>
+        Bairro Centro<br>
+        Cidade - Estado<br>
+        CEP: 12345-678
+    </address>
+    {% include 'menu.html' %}
+</body>
+</html>
+
